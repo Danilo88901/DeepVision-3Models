@@ -22,7 +22,7 @@ cassava-leaf-disease-cnn/
 ├── plot/ # GRAM for My CNN
 └── README.md # Project documentation
 
-ъ
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -54,7 +54,7 @@ Tracks training and validation metrics including loss and F1 score.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📊 Results
-Achieved high classification performance with a validation F1 score of approximately 67%
+Achieved high classification performance with a validation F1 score of approximately 42%
 
 Achieved high classification performance with a validation accuracy score of approximately 52%
 
