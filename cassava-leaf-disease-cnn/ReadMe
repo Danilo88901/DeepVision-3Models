@@ -1,0 +1,78 @@
+# 🌿 Cassava Leaf Disease Classification with CNN 🌿
+
+This project implements a Convolutional Neural Network (CNN) to classify cassava leaf diseases using transfer learning.  
+The model is trained on the [Cassava Leaf Disease Classification dataset from Kaggle](https://www.kaggle.com/competitions/cassava-leaf-disease-classification/overview).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🚀 Project Overview
+
+Cassava is a major food crop in many tropical countries, but it is vulnerable to several diseases which reduce its yield and quality.  
+Early and accurate detection of these diseases using machine learning can help farmers take timely action.
+
+This project fine-tunes a pretrained CNN model to classify images of cassava leaves into different disease categories.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📁 Folder Structure
+
+cassava-leaf-disease-cnn/
+├── my_cnn.py # Training script for CNN model
+├── plots/ # Training and validation plots (loss, accuracy, f.)
+├── plot/ # GRAM for My CNN
+└── README.md # Project documentation
+
+ъ
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ⚙️ Requirements
+
+- Python 3.x  
+- torch  
+- torchvision  
+- scikit-learn  
+- pandas  
+- matplotlib  
+- Pillow  
+
+Install dependencies with:
+
+```bash
+pip install torch torchvision scikit-learn pandas matplotlib pillow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧠 Model Details
+Uses transfer learning with a pretrained CNN backbone.
+
+Fine-tunes the classifier head to distinguish between cassava leaf disease classes.
+
+Applies data augmentation to improve generalization.
+
+Tracks training and validation metrics including loss and F1 score.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 Results
+Achieved high classification performance with a validation F1 score of approximately [your_best_f1_score_here]%.
+
+Training and validation loss decreased steadily over epochs.
+
+Visualization of metrics is available in the plots/ folder.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔮 Future Work & Improvements
+Implement class-wise precision, recall, and confusion matrix visualization.
+
+Experiment with different architectures and hyperparameters.
+
+Add model evaluation on unseen test data.
+
+Provide pretrained model weights for inference.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 Dataset
+Cassava Leaf Disease Classification on Kaggle:
+https://www.kaggle.com/competitions/cassava-leaf-disease-classification/overview
