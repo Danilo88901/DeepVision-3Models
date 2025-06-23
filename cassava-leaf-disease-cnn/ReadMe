@@ -54,7 +54,9 @@ Tracks training and validation metrics including loss and F1 score.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📊 Results
-Achieved high classification performance with a validation F1 score of approximately [your_best_f1_score_here]%.
+Achieved high classification performance with a validation F1 score of approximately 67%
+
+Achieved high classification performance with a validation accuracy score of approximately 52%
 
 Training and validation loss decreased steadily over epochs.
 
