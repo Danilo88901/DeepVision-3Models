@@ -1,0 +1,19 @@
+## 📊 Results
+
+### 🧠 Model Performance Comparison
+
+| Model             | Architecture Details                    | Accuracy (Val) | F1 Score (Val) |
+|-------------------|------------------------------------------|----------------|----------------|
+| 🧪 My CNN          | Custom CNN + Inception Block             | 52.00%         | 42.00%         |
+| 🌀 Convex CNN      | Lightweight ConvNet + Transfer Learning  | 86.25%         | 76.00%         |
+| 🦾 ResNet50        | Pretrained ResNet50 + Fine-tuned Head    | 79.00%         | 67.00%         |
+
+---
+
+### 📌 Summary
+
+- 📉 **My CNN** showed limited performance due to lack of depth and pretraining, despite using an Inception block.
+- 🚀 **Convex CNN** delivered the best overall performance, combining transfer learning with an efficient custom architecture.
+- 🧠 **ResNet50** performed solidly thanks to pretrained features, but did not surpass Convex CNN in this specific task.
+
+📊 Training curves for all models (loss, accuracy, F1-score) are saved in the `plots/` folder.
