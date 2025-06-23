@@ -1,1 +1,91 @@
+# 🌀 Cassava Leaf Disease Classification with Convex CNN 🌀
 
+This project implements a custom Convolutional Neural Network (Convex CNN) to classify cassava leaf diseases.  
+The model was trained using transfer learning and optimized for robust performance on the [Cassava Leaf Disease Classification dataset](https://www.kaggle.com/competitions/cassava-leaf-disease-classification/overview) from Kaggle.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🚀 Project Overview
+
+Cassava is a staple crop in many tropical regions but suffers from several diseases that affect yield and quality.  
+This project uses a lightweight CNN (Convex) architecture to classify cassava leaf images into disease categories with high accuracy.
+
+Key features:
+
+- ⚙️ Custom Convex CNN architecture  
+- 🧠 Transfer learning applied where appropriate  
+- 🎛️ Data augmentation for improved generalization  
+- 📈 Tracked training using loss, accuracy, and F1-score
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📁 Folder Structure
+
+convex_model/
+├── convex_training.py # Training script for Convex CNN
+├── Example of GRAM for Convex CNN
+├── plots/ # Accuracy/loss/F1 graphs
+└── README.md # Project documentation
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ⚙️ Requirements
+
+- Python 3.x  
+- torch  
+- torchvision  
+- scikit-learn  
+- pandas  
+- matplotlib  
+- Pillow  
+
+Install all dependencies:
+
+```bash
+pip install torch torchvision scikit-learn pandas matplotlib pillow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+▶️ Usage
+To train the model:
+
+
+python convex_training.py
+Outputs include:
+
+Epoch-wise training/validation loss
+
+Accuracy and macro F1 score
+
+Best weights saved as best_model.pth
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 Results
+✅ Validation Accuracy: 86.25%
+
+📉 Validation F1 Score: 76%
+
+📈 Training and validation losses decreased consistently
+
+📊 Metrics visualized and saved in the plots/ directory
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔮 Future Improvements
+Add class-wise performance metrics (precision, recall, confusion matrix)
+
+Integrate test-time augmentation
+
+Optimize Convex architecture further
+
+Deploy model for real-time use in farming applications
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 Dataset
+Cassava Leaf Disease Classification —
+https://www.kaggle.com/competitions/cassava-leaf-disease-classification/overview
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
